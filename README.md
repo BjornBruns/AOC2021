@@ -8,4 +8,4 @@
 
 ## Completed day?
 
-1. [Yes](day1/README.md)
+1. [Yes](day1/)
