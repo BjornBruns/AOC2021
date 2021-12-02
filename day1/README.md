@@ -4,10 +4,10 @@
 
 ### (1) Information
 
-- The submarine drops below the surface and does a sonar sweep
+- The submarine makes a sonar sweep of the sea floor, which is the input of the puzzle
 - With the sonar sweep it can measure the depth of the sea floor
 - The depth is the data we use for the first puzzle
-- We want to know how often a measurement increases compared to the previous one
+- We want to know **how many measurements are deeper than the previous measurement**
 
 ### (1) Question
 
@@ -28,11 +28,13 @@ _How many measurements are larger than the previous measurement?_
 263 (increased)
 ```
 
+Here you can see that there are 7 measurements deeper/larger than the previous.
+
 ### (1) Data
 
-- The data is plain text, without the increased/decreased information
+- The data is plain text containing 2000 data points, without the increased/decreased information
 - It can be found on <https://adventofcode.com/2021/day/1/input>
-- In the project it's saved in the `puzzle_data.txt` file
+- In the project it's saved in the `puzzle1_data.txt` file
 
 ### (1) Strategy
 
