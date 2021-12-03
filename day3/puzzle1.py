@@ -20,7 +20,7 @@ transposed_bitlist = list(map(list, zip(*bitlist)))
 gamma_bitstring = ''.join([most_frequent(bitstring) for bitstring in transposed_bitlist])
 gamma_rate = int(gamma_bitstring, 2)
 
-epsilon_bitstring = bin(int(''.join('1' if x == '0' else '0' for x in gamma_bitstring), 2)) # Flip 1s and 0s
+epsilon_bitstring = ''.join('1' if x == '0' else '0' for x in gamma_bitstring) # Flip 1s and 0s
 epsilon_rate = int(epsilon_bitstring, 2)
 
 print(gamma_rate * epsilon_rate)
