@@ -29,7 +29,7 @@ Here you can see that the total horizontal position is 15 and the total depth is
 
 - The data is plain text containing 1000 data points
 - It can be found on <https://adventofcode.com/2021/day/2/input>
-- In the project it's saved in the `puzzle2_data.txt` file
+- In the project it's saved in the `day2_data.txt` file
 
 ### (1) Strategy
 
@@ -58,13 +58,14 @@ _What do you get if you multiply your final horizontal position by your final de
 
 ### (2) Example data
 
-````text
+```text
 forward 5 adds 5 to your horizontal position, a total of 5. Because your aim is 0, your depth does not change.
 down 5 adds 5 to your aim, resulting in a value of 5.
 forward 8 adds 8 to your horizontal position, a total of 13. Because your aim is 5, your depth increases by 8*5=40.
 up 3 decreases your aim by 3, resulting in a value of 2.
 down 8 adds 8 to your aim, resulting in a value of 10.
-forward 2 adds 2 to your horizontal position, a total of 15. Because your aim is 10, your depth increases by 2*10=20 to a total of 60.```
+forward 2 adds 2 to your horizontal position, a total of 15. Because your aim is 10, your depth increases by 2*10=20 to a total of 60.
+```
 
 ### (2) Data
 
@@ -80,4 +81,3 @@ forward 2 adds 2 to your horizontal position, a total of 15. Because your aim is
 ### (2) Answer
 
 - The new horizontal count is `1970` and the depth count is `1000556`, multiplied this is: `1971095320`
-````

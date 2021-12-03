@@ -2,7 +2,7 @@
 
 import re
 
-data_file_name = "puzzle2_data.txt"
+data_file_name = "day2_data.txt"
 
 with open(data_file_name, 'r') as file:
     directions = [line for line in file]

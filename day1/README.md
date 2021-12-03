@@ -34,7 +34,7 @@ Here you can see that there are 7 measurements deeper/larger than the previous.
 
 - The data is plain text containing 2000 data points, without the increased/decreased information
 - It can be found on <https://adventofcode.com/2021/day/1/input>
-- In the project it's saved in the `puzzle1_data.txt` file
+- In the project it's saved in the `day1_data.txt` file
 
 ### (1) Strategy
 

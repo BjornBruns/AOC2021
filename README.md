@@ -9,3 +9,5 @@
 ## Completed day?
 
 1. [Yes](day1/)
+2. [Yes](day2/)
+3. [Yes](day3/)
