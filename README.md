@@ -1,4 +1,4 @@
-# AOC 2021 - General information
+# AOC 2021 - General background information
 
 - One of the elves has lost the sleigh keys and they fell in the ocean
 - We are trying to find them using the submarine
@@ -11,3 +11,12 @@
 1. [Yes](day1/)
 2. [Yes](day2/)
 3. [Yes](day3/)
+
+## Running Swift files
+
+Most puzzles are solved with Python, but some are solved using [Swift](https://www.swift.org) as well. Swift is language developed by Apple, mainly used for iOS and macOS development. Generally, it's not used as a scripting language. But hey, if it can be done - why not? See the instructions below if you have trouble figuring out how to run a `.swift` file.
+
+1. Make sure [Swift is installed on your machine](https://www.swift.org/getting-started/)
+2. Verify it's installed correctly by running `swift --version` in your terminal
+3. Make file executable `chmod +x <file_name>.swift`
+4. Run like a normal executable file `./<file_name>.swift`
