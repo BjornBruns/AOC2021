@@ -11,6 +11,7 @@
 1. [Yes](day1/)
 2. [Yes](day2/)
 3. [Yes](day3/)
+4. [Yes](day4/)
 
 ## Running Swift files
 
