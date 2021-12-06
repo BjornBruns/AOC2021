@@ -8,10 +8,11 @@
 
 ## Completed day?
 
-1. [Yes](day1/)
-2. [Yes](day2/)
-3. [Yes](day3/)
-4. [Yes](day4/)
+1. [Yes (Python + Swift)](day1/)
+2. [Yes (Python + Swift)](day2/)
+3. [Yes (Python)](day3/)
+4. [Yes (Python)](day4/)
+5. [Yes (Python)](day5/)
 
 ## Running Swift files
 
