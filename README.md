@@ -17,7 +17,7 @@
 
 ## Running Swift files
 
-Most puzzles are solved with Python, but some are solved using [Swift](https://www.swift.org) as well. Swift is language developed by Apple, mainly used for iOS and macOS development. Generally, it's not used as a scripting language. But hey, if it can be done - why not? See the instructions below if you have trouble figuring out how to run a `.swift` file.
+Most puzzles are solved with Python, but some are solved using [Swift](https://www.swift.org) as well. Swift is a language developed by Apple, mainly used for iOS and macOS development. Generally, it's not used as a scripting language. But hey, if it can be done - why not? See the instructions below if you have trouble figuring out how to run a `.swift` file.
 
 1. Make sure [Swift is installed on your machine](https://www.swift.org/getting-started/)
 2. Verify it's installed correctly by running `swift --version` in your terminal
