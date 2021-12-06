@@ -40,11 +40,11 @@ Here you can see that there are 7 measurements deeper/larger than the previous.
 
 - Create a simple Python script that reads the data
 - Loop over the data and determine if the current measurement is higher than the previous
-- The script can be found in `puzzle1.py`
+- The script can be found in `python/puzzle1.py`
 
 ### (1) Answer
 
-- The number of measurements that are larger than the previous: 1448
+- The number of measurements that are larger than the previous: `1448`
 
 ---
 
@@ -84,16 +84,12 @@ G: 769 (increased)
 H: 792 (increased)
 ```
 
-### (2) Data
-
-- The same as puzzle 1
-
 ### (2) Strategy
 
 - First calculate all the 3 measurement windows and make a new list
 - Then compare the new list like in puzzle 1
-- The script can be found in `puzzle2.py`
+- The script can be found in `python/puzzle2.py`
 
 ### (2) Answer
 
-- The number of sums larger than the previous sum: 1471
+- The number of sums larger than the previous sum: `1471`

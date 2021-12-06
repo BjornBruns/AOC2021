@@ -56,7 +56,7 @@ Here at the first position the most common bit is 1, in the second position it's
 - Write three methods for the board objects `call_number(number)`, `is_finished() -> bool`, and `calculate_score() -> int`
 - Make board objects for all the input
 - Iterate over the called numbers, call the number for each board and determine whether is board is finished, if so, calculate the score
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzles.py`
 
 ### (1) Answer
 
@@ -75,20 +75,12 @@ Here at the first position the most common bit is 1, in the second position it's
 
 _Figure out which board will win last. Once it wins, what would its final score be?_
 
-### (2) Example data
-
-Same as first puzzle.
-
-### (2) Data
-
-Same as first puzzle.
-
 ### (2) Strategy
 
 - Do the same as for the first puzzle, but keep track of the boards that haven't been finished yet
 - When a board finishes, print its score
 - The last board to finish, has the score as the answer
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzles.py`
 
 ### (2) Answer
 

@@ -2,7 +2,7 @@
 
 from functools import reduce
 
-data_file_name = "day4_data.txt"
+data_file_name = "../day4_data.txt"
 
 class Board:
     def __init__(self, board_string):

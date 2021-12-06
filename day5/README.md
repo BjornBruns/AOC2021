@@ -58,7 +58,7 @@ In this example there are `5` points where 2 or more lines overlap.
 - Filter out lines that are not straight
 - Count the number of times a point was created by the algorithm (e.g. store in dict)
 - Count the number of points that were created more than once
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzles.py`
 
 ### (1) Answer
 
@@ -79,7 +79,7 @@ _Consider all of the lines. At how many points do at least two lines overlap?_
 ### (2) Strategy
 
 - Do the same as for the first puzzle, but remove the filtering of straight lines
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzles.py`
 
 ### (2) Answer
 

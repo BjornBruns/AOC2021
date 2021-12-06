@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-data_file_name = "day1_data.txt"
+data_file_name = "../day1_data.txt"
 
 with open(data_file_name, 'r') as file:
     depth_measurements = [int(line.rstrip()) for line in file]

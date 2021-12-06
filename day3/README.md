@@ -49,7 +49,7 @@ Here at the first position the most common bit is 1, in the second position it's
 - Look at the most common element in each list
 - Create a binary string from these elements (and flip 1s and 0s for epsilon) and convert to decimal
 - Multiply the decimals
-- The script can be found in `puzzle1.py`
+- The script can be found in `python/puzzle1.py`
 
 ### (1) Answer
 
@@ -74,14 +74,6 @@ Here at the first position the most common bit is 1, in the second position it's
 
 _What is the life support rating of the submarine?_
 
-### (2) Example data
-
-Same as first puzzle.
-
-### (2) Data
-
-Same as first puzzle.
-
 ### (2) Strategy
 
 - Create a simple Python script that reads the data
@@ -90,7 +82,7 @@ Same as first puzzle.
 - Look at the most and least common element in each list
 - Create a binary string from these elements and convert to decimal
 - Multiply the decimals
-- The script can be found in `puzzle2.py`
+- The script can be found in `python/puzzle2.py`
 
 ### (2) Answer
 

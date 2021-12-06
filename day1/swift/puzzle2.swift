@@ -2,7 +2,7 @@
 
 import Foundation
 
-let dataFilePath = "day1_data.txt"
+let dataFilePath = "../day1_data.txt"
 
 // Read file
 let fileContents = try String(contentsOfFile: dataFilePath, encoding: String.Encoding.utf8)

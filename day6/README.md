@@ -54,7 +54,7 @@ In this example, there are `26` fish after 18 days. After 80 days there would be
 - Create a Python script that reads in the values as a list of integers
 - Write a function that decrements the timers and adds new fish to the list
 - Call the function 80 times and read the length of the list
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzle1.py`
 
 ### (1) Answer
 
@@ -78,7 +78,7 @@ _How many lanternfish would there be after 256 days?_
 - Instead of expanding the list, track the number of fish in each "age category" (in a dictionary)
 - Move all the fish to the next category when a day passes
 - Make sure that the fish that go past age `0` go back to age `6` and add new fish to age `8`
-- The script can be found in `puzzles.py`
+- The script can be found in `python/puzzle2.py`
 
 ### (2) Answer
 

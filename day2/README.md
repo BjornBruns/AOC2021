@@ -36,7 +36,7 @@ Here you can see that the total horizontal position is 15 and the total depth is
 - Create a simple Python script that reads the data
 - Create 3 counters (or a dict) that stores the count of each of the directions
 - Read the string and then the integer in each data point to assign the count
-- The script can be found in `puzzle1.py`
+- The script can be found in `python/puzzle1.py`
 
 ### (1) Answer
 
@@ -56,7 +56,7 @@ Here you can see that the total horizontal position is 15 and the total depth is
 
 _What do you get if you multiply your final horizontal position by your final depth?_
 
-### (2) Example data
+### (2) Example
 
 ```text
 forward 5 adds 5 to your horizontal position, a total of 5. Because your aim is 0, your depth does not change.
@@ -67,16 +67,12 @@ down 8 adds 8 to your aim, resulting in a value of 10.
 forward 2 adds 2 to your horizontal position, a total of 15. Because your aim is 10, your depth increases by 2*10=20 to a total of 60.
 ```
 
-### (2) Data
-
-- The same as puzzle 1
-
 ### (2) Strategy
 
 - Loop over the data
 - Create three counters: `aim`, `horizontal` and `depth`
 - Multiply the horizontal position with the depth
-- The script can be found in `puzzle2.py`
+- The script can be found in `python/puzzle2.py`
 
 ### (2) Answer
 

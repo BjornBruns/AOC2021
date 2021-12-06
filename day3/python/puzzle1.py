@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-data_file_name = "day3_data.txt"
+data_file_name = "../day3_data.txt"
 
 # Helper functions
 def split(word):
