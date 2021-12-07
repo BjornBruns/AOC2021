@@ -1,28 +1,13 @@
 #!/usr/bin/env python3
 
+from functools import reduce
+
 data_file_name = "../day1_data.txt"
 
 with open(data_file_name, 'r') as file:
-    depth_measurements = [int(line.rstrip()) for line in file]
+    depths = [int(line.rstrip()) for line in file]
 
-sliding_measurements = []
+sliding = [(depths[i-2] + depths[i-1] + depths[i]) for i in range(len(depths)) if i > 1]
 
-for i, measurement in enumerate(depth_measurements):
-    if i < 2: # Guard against index out of bounds
-        continue
-
-    minus_2 = depth_measurements[i-2]
-    minus_1 = depth_measurements[i-1]
-
-    sliding_measurements.append(measurement + minus_1 + minus_2)
-
-# Same logic as puzzle 1
-deeper_count = 0
-for i, measurement in enumerate(sliding_measurements):
-    if i < 1: # Guard against index out of bounds
-        continue
-
-    if measurement > sliding_measurements[i - 1]:
-        deeper_count += 1
-
-print(deeper_count)
+g = lambda x, i: x + (1 if i >= 0 and sliding[i] > sliding[i - 1] else 0)
+print(reduce(g, range(len(sliding)), 0))

@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 
+from functools import reduce
+
 data_file_name = "../day1_data.txt"
 
 with open(data_file_name, 'r') as file:
-    depth_measurements = [int(line.rstrip()) for line in file]
+    depths = [int(line.rstrip()) for line in file]
 
-deeper_count = 0
-for i, measurement in enumerate(depth_measurements):
-    if i < 1:
-        continue
-
-    if measurement > depth_measurements[i - 1]:
-        deeper_count += 1
-
-print(deeper_count)
+g = lambda x, i: x + (1 if i >= 0 and depths[i] > depths[i - 1] else 0)
+print(reduce(g, range(len(depths)), 0))
