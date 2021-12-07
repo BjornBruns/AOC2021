@@ -14,6 +14,7 @@
 4. [Yes (Python)](day4/)
 5. [Yes (Python)](day5/)
 6. [Yes (Python + Swift)](day6/)
+7. [Yes (Python)](day7/)
 
 ## Running Swift files
 
