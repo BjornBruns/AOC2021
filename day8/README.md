@@ -1,4 +1,4 @@
-# AOC day 7
+# AOC day 8
 
 ## Puzzle 1
 
